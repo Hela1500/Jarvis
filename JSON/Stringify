@@ -5,7 +5,7 @@
     <h2>create a json string format</h2>
     <p id="demo"></p>
     <script>
-        const myobj = {"name" : "Bhuvan" , "age" : 18}
+        const myobj = {"name" : "Hero" , "age" : 18}
         const myJSON = JSON.stringify(myobj);
 
         document.getElementById("demo").innerHTML = myJSON;
