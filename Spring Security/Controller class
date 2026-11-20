@@ -1,0 +1,14 @@
+package com.example.springsec;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+public class Controller {
+    @RestController
+    public static class HelloController {
+        @GetMapping
+        public String greet() {
+            return "Hello Spring Security";
+        }
+    }
+}
