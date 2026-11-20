@@ -1,0 +1,5 @@
+npx create-react-app Doom
+
+cd Doom
+
+npm start
