@@ -1,0 +1,90 @@
+LAB 12@dark MINGW64 ~/Desktop
+$ git --version
+git version 2.52.0.windows.1
+
+LAB 12@dark MINGW64 ~/Desktop
+$ mkdir bugatti
+
+LAB 12@dark MINGW64 ~/Desktop
+$ cd bugatti
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti
+$ pwd
+/c/Users/LAB 12/Desktop/bugatti
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti
+$ vi bugatti
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti
+$ vi chiron.html
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti
+$ git init
+Initialized empty Git r
+epository in C:/Users/L
+AB 12/Desktop/bugatti/.
+git/
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti (master)
+$ git add .
+warning: in the working
+ copy of 'bugatti', LF
+will be replaced by CRL
+F the next time Git tou
+ches it
+warning: in the working
+ copy of 'chiron.html',
+ LF will be replaced by
+ CRLF the next time Git
+ touches it
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti (master)
+$ git config --global user.name "Bhuvan1317"
+$ git config --global user.email "thotabhuvanendra9090@gmail.com"
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti (master)
+$ git commit -m "hiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+[master (root-commit) 68323be] hiiiiiiiiiiiiiiiiiiiiiiiiiiii
+ 2 files changed, 10 insertions(+)
+ create mode 100644 bugatti
+ create mode 100644 chiron.html
+
+LAB 12@dark MINGW64 ~/Desktop/bugatti (master)
+$ git remote add origin https://github.com/Bhuvan1317/Hypercar.git
+git branch -M main
+git push -u origin main
+info: please complete a
+uthentication in your b
+rowser...
+Enumerating objects: 4,
+ done.
+Counting objects:  25%
+Counting objects:  50%
+Counting objects:  75%
+Counting objects: 100%
+Counting objects: 100%
+(4/4), done.
+Delta compression using
+ up to 4 threads
+Compressing objects:  2
+Compressing objects:  5
+Compressing objects:  7
+Compressing objects: 10
+Compressing objects: 10
+0% (4/4), done.
+Writing objects:  25% (
+Writing objects:  50% (
+Writing objects:  75% (
+Writing objects: 100% (
+Writing objects: 100% (
+4/4), 468 bytes | 234.0
+0 KiB/s, done.
+Total 4 (delta 0), reus
+ed 0 (delta 0), pack-re
+used 0 (from 0)
+To https://github.com/B
+huvan1317/Hypercar.git
+ * [new branch]      ma
+in -> main
+branch 'main' set up to
+ track 'origin/main'.
