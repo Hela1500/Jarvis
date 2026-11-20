@@ -1,5 +1,7 @@
 npx create-react-app Doom
 
+npm install react-router-dom
+
 cd Doom
 
 npm start
