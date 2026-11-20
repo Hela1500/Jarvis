@@ -5,7 +5,7 @@
     <h2>create a object from json</h2>
     <p id="demo"></p>
     <script>
-        const txt = `{"name" : "Bhuvan" , "age" : 18}`;
+        const txt = `{"name" : "Hero" , "age" : 18}`;
         const myobj = JSON.parse(txt);
 
         document.getElementById("demo").innerHTML = myobj.name + ", "+ myobj.age ;
